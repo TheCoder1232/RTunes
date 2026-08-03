@@ -69,7 +69,7 @@ jobs:
       # avoiding the need to manually install a cross-linker and aarch64 headers.
       - name: Install cross
         if: matrix.use_cross == 'true'
-        uses: taiki-e/install-action@v2
+        uses: taiki-e/install-action@v2.85.5
         with:
           tool: cross
 
